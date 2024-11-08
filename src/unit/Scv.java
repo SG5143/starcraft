@@ -25,11 +25,10 @@ public class Scv extends GroundUnit implements Repairable, Attackable {
 	@Override
 	public void attack(Unit unit) {
 		if (unit instanceof GroundUnit) {
-			if (unit.hp > 0) 
+			if (unit.hp > 0)
 				unit.hp -= 1;
 
 			System.out.printf("%s 가 %s 를 공격\n", name, unit.name);
 		}
 	}
-
 }
