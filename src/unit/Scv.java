@@ -6,7 +6,7 @@ public class Scv extends GroundUnit implements Repairable{
 		super("SCV", 10);
 	}
 	
-	void repair(Repairable unit) {
+	public void repair(Repairable unit) {
 		if (unit instanceof Unit) {
 			Unit target = (Unit) unit;
 			while (target.hp < target.MAXHP) {
