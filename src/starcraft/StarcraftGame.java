@@ -28,6 +28,12 @@ public class StarcraftGame {
 		System.out.println(marine);
 		
 		dropship.flying();
+		
+		tank.decreaseHp(15);
+		System.out.println(tank.getHp());
+		
+		scv.repair(tank);
+		
+		scv.attack(dropship);
 	}
-
 }
