@@ -1,5 +1,8 @@
 package unit;
 
+import interfaces.Attackable;
+import interfaces.Repairable;
+
 public class Scv extends GroundUnit implements Repairable, Attackable {
 
 	public Scv() {

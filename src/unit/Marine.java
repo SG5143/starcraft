@@ -1,5 +1,7 @@
 package unit;
 
+import interfaces.Attackable;
+
 public class Marine extends GroundUnit implements Attackable {
 	public Marine() {
 		super("Marine", 20);

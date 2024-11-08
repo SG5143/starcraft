@@ -1,5 +1,8 @@
 package unit;
 
+import interfaces.Attackable;
+import interfaces.Repairable;
+
 public class DropShip extends AirUnit implements Repairable, Attackable {
 
 	public DropShip() {

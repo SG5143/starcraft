@@ -1,5 +1,8 @@
 package unit;
 
+import interfaces.Attackable;
+import interfaces.Repairable;
+
 public class Tank extends GroundUnit implements Repairable, Attackable {
 	public Tank() {
 		super("Tank", 30);
